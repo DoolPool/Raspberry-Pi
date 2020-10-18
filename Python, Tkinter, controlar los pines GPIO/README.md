@@ -5,6 +5,7 @@
 </p>
 <h1 align="center">DoolPool, Inc.</h1>
 <h3 align="center">Hello 👋, we are DoolPool, frontend and backend developers located in Peru.</h3>
+<hr>
 
 # Raspberry-Pi
 
@@ -12,7 +13,18 @@
 
 Este apartado le mostrará cómo crear una aplicación de interfaz gráfica de usuario (GUI) simple que controlará los pines GPIO de Raspberry Pi utilizando Tkinter, la GUI estándar de Python. Antes de sumergirse en Tkinter, familiarícese con Python como lenguaje de programación . La aplicación GUI tendrá tres botones: dos controlarán los pines GPIO 20 y 21 y el tercero será el botón de salida.
 
+Si bien hay muchas opciones de aplicaciones GUI para Python, Tkinter es la forma más común, más fácil de usar y más rápida de crear una aplicación GUI. Además, está integrado en el sistema operativo Raspberry Pi, Raspbian.
 
+## Componentes requeridos
+Para este proyecto, necesitará:
+
+Frambuesa pi
+2 x LED
+Cables de salto
+Tablero de circuitos
+
+## Diagrama de circuito y explicación
+El diagrama del circuito es muy simple. Solo tenemos que conectar dos LED a GPIO 20 y 21 en nuestra Raspberry Pi utilizando resistencias de 220 ohmios. Conecte los pines al lado positivo de cada LED y conecte el lado negativo de cada LED con las resistencias de 220 ohmios a tierra.
 
 <hr>
 <p align="center">
