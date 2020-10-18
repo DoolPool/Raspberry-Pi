@@ -18,15 +18,15 @@ Si bien hay muchas opciones de aplicaciones GUI para Python, Tkinter es la forma
 ## Componentes requeridos
 Para este proyecto, necesitará:
 
-Frambuesa pi
-2 x LED
-Cables de salto
-Tablero de circuitos
+• Raspberry Pi
+• 2 x LED
+• Cables de salto
+• Tablero de circuitos (Breadboard)
 
 ## Diagrama de circuito y explicación
 El diagrama del circuito es muy simple. Solo tenemos que conectar dos LED a GPIO 20 y 21 en nuestra Raspberry Pi utilizando resistencias de 220 ohmios. Conecte los pines al lado positivo de cada LED y conecte el lado negativo de cada LED con las resistencias de 220 ohmios a tierra.
 
-<hr>
+<hr> 
 <p align="center">
    <a alt="play doolpool" href="https://doolpool.com/play">Play DoolPool</a>
  • <a alt="red doolpool" href="https://doolpool.com/red/">Red DoolPool</a>
