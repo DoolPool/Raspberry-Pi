@@ -30,7 +30,7 @@ Para este proyecto, necesitará:
 El diagrama del circuito es muy simple. Solo tenemos que conectar dos LED a GPIO 20 y 21 en nuestra Raspberry Pi utilizando resistencias de 220 ohmios. Conecte los pines al lado positivo de cada LED y conecte el lado negativo de cada LED con las resistencias de 220 ohmios a tierra.
 
 <p align="center">
-    <img width="100" src="https://raw.githubusercontent.com/DoolPool/Raspberry-Pi/main/Python%2C%20Tkinter%2C%20controlar%20los%20pines%20GPIO/circuito.png" alt="Circuito">
+    <img width="200" src="https://raw.githubusercontent.com/DoolPool/Raspberry-Pi/main/Python%2C%20Tkinter%2C%20controlar%20los%20pines%20GPIO/circuito.png" alt="Circuito">
 </p>
 
 ## Tutorial de código
