@@ -33,6 +33,18 @@ El diagrama del circuito es muy simple. Solo tenemos que conectar dos LED a GPIO
     <img width="100" src="https://raw.githubusercontent.com/DoolPool/Raspberry-Pi/main/Python%2C%20Tkinter%2C%20controlar%20los%20pines%20GPIO/circuito.png" alt="Circuito">
 </p>
 
+## Tutorial de código
+Echemos un vistazo al código y veamos qué hace cada sección para el proyecto en su conjunto.
+
+En primer lugar, importamos las bibliotecas necesarias para este proyecto. La biblioteca Tkinter nos ayudó a crear la aplicación GUI y la biblioteca RPi.GPIO controla los pines GPIO de Raspberry Pi.
+
+```python
+import Tkinter as tk 
+import RPi.GPIO as GPIO
+from time import sleep
+```
+
+
 <hr> 
 <p align="center">
    <a alt="play doolpool" href="https://doolpool.com/play">Play DoolPool</a>
