@@ -19,8 +19,11 @@ Si bien hay muchas opciones de aplicaciones GUI para Python, Tkinter es la forma
 Para este proyecto, necesitará:
 
 • Raspberry Pi
+
 • 2 x LED
+
 • Cables de salto
+
 • Tablero de circuitos (Breadboard)
 
 ## Diagrama de circuito y explicación
