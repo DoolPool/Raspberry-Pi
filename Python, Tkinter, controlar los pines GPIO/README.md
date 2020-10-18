@@ -36,7 +36,7 @@ El diagrama del circuito es muy simple. Solo tenemos que conectar dos LED a GPIO
 ## Tutorial de código
 Echemos un vistazo al código y veamos qué hace cada sección para el proyecto en su conjunto.
 
-En primer lugar, importamos las bibliotecas necesarias para este proyecto. La biblioteca Tkinter nos ayudó a crear la aplicación GUI y la biblioteca RPi.GPIO controla los pines GPIO de Raspberry Pi.
+En primer lugar, importamos las bibliotecas necesarias para este proyecto. La biblioteca Tkinter nos ayuda a crear la aplicación GUI y la biblioteca RPi.GPIO controla los pines GPIO de Raspberry Pi.
 
 ```python
 import Tkinter as tk 
