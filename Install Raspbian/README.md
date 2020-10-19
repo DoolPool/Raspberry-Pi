@@ -9,6 +9,17 @@
 
 # Raspberry-Pi
 
+## Instalar Raspbian
+
+Raspbian es un sistema operativo como Ubuntu, Windows o Mac OS. La única diferencia es que es solo para Raspberry Pi y está basado en Linux. Debajo de Raspbian, hay un núcleo de Debian (un sistema operativo) que también es el núcleo de Ubuntu y muchos otros sistemas operativos.
+
+### Requisitos
+
+### 1. Descarga la imagen de Raspbian en la tarjeta SD
+
+### 2. Flasheo de la imagen de Raspbian en la tarjeta microSD
+
+### 3. Insertar en la Raspberry Pi y Encender
 
 
 <hr> 
