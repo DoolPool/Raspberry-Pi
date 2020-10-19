@@ -122,7 +122,7 @@ Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 5.3.0-1017-raspi2 aarch64)
 
   System information as of Thu Mar 5 15:41:49 UTC 2020
 
-  System load:  0.89                    Processes:        126
+  System load:  0.89                Processes:        126
   Usage of /:   1.3% of 117.11GB    Users logged in:  0
   Memory usage: 6%                  IP addresss for wlan0:***.***.***.***
   Swape usage:  0%
@@ -135,6 +135,127 @@ Your Hardware Enablement Stack (HWE) is supported until April 2023.
 ```
 
 ### 5. Configuración de WiFi usando netplan
+
+A partir de Ubuntu 18.04 LTS, Ubuntu usa Netplan para configurar las interfaces de red de forma predeterminada. Netplan es una utilidad para configurar interfaces de red en Linux. Netplan usa archivos YAML para configurar interfaces de red. El formato del archivo de configuración YAML es realmente simple. Tiene una sintaxis clara y fácil de entender.
+
+Para poder configurar Wifi en Raspberry Pi, primero debe obtener el nombre de la tarjeta wifi mostrando los componentes físicos usando el siguiente comando:
+
+```ubuntu
+sudo lshw
+```
+
+En mi caso fue wlan0 . Luego navegue a / etc / netplan / usando el comando cd
+
+```ubuntu
+cd /etc/netplan/
+```
+
+Edite el archivo de configuración de Netplan YAML /etc/netplan/50-cloud-init.yaml con el siguiente comando:
+
+```ubuntu
+sudo nano 50-cloud-init.yaml
+```
+
+Agregue su información de acceso WiFi. Asegúrese de no usar tabulación para el espacio, use la barra espaciadora para crear el espacio en blanco.
+
+```ubuntu
+# This file is generated from information provided by
+# the datasource.  Changes to it will not persist across an instance.
+# To disable cloud-init's network configuration capabilities, write a file
+# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
+# network: {config: disabled}
+network:
+    version: 2
+    ethernets:
+        eth0:
+            optional: true
+            dhcp4: true
+    # add wifi setup information here ...
+    wifis:
+        wlan0:
+            optional: true
+            access-points:
+                "YOUR-SSID-NAME":
+                    password: "YOUR-NETWORK-PASSWORD"
+            dhcp4: true
+```
+
+Cambie el SSID-NAME y YOUR-NETWORK-PASSWORD con su información. Cierre y guarde el archivo usando ctrl + x y presione sí.
+
+Ahora, verifique si hay algún error en el archivo de configuración con el siguiente comando:
+
+```ubuntu
+sudo netplan –debug try
+```
+
+Si se produce algún error, puede consultar con este comando para obtener información detallada sobre el error.
+
+```ubuntu
+sudo netplan --debug generate
+```
+
+Aplica el archivo de configuración con el siguiente comando:
+
+```ubuntu
+sudo netplan --debug apply
+```
+
+Finalmente, reinicie su PI
+
+```ubuntu
+sudo reboot
+```
+### 6. Actualizar el software de Linux en su Pi
+
+Para asegurarse de que todas las dependencias estén actualizadas, ejecute el siguiente comando
+
+```ubuntu
+sudo apt-get update
+```
+
+Si desea obtener las últimas versiones del software que ya instaló, ejecute
+
+```ubuntu
+sudo apt-get upgrade
+```
+
+Este comando actualiza todo el software de su Pi a la última versión. Puede tardar un poco en ejecutarse, por lo que no es necesario que lo haga con frecuencia. Tienes que presionar Y y Enter para confirmar.
+
+### 7. Instale los componentes de escritorio (GUI) en un servidor Ubuntu
+
+El servidor de Ubuntu está diseñado para utilizar recursos mínimos. Una GUI conducirá a un alto uso de recursos, sin embargo, si aún desea una GUI, puede instalar solo lo necesario. A veces, necesita la GUI en su servidor Ubuntu para manejar tareas simples del día a día que necesitan una interacción rápida sin profundizar en la configuración del servidor. También tiene la opción de instalar un entorno de escritorio. Instale el entorno de escritorio predeterminado de Unity con el siguiente comando:
+
+```ubuntu
+sudo 
+```
+
+Para instalar el entorno de escritorio de Unity sin complementos como (correo electrónico, OpenOffice):
+
+```ubuntu
+sudo apt-get install --no-install-recommends ubuntu-desktop
+```
+
+Para instalar un entorno de escritorio muy ligero, ejecute el siguiente comando
+
+```ubuntu
+sudo apt-get install xubuntu-desktop
+```
+o
+```ubuntu
+sudo apt-get install lubuntu-desktop
+```
+
+Luego escriba
+
+```ubuntu
+sudo reboot
+```
+
+y ya está. Felicidades. Instaló con éxito el escritorio de Ubuntu en el servidor Ubuntu Linux.
+
+## Conclusión
+
+Ubuntu 18.04.4 para Raspberry Pi es un gran sistema operativo de uso general con un entorno de escritorio completo y una gran comunidad llena de recursos. También viene con la ventaja adicional de estar disponible en una versión de 64 bits para usar la Pi en todo su potencial.
 
 <hr> 
 
