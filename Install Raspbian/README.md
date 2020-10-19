@@ -42,7 +42,7 @@ Puede flashear la imagen de Raspbian en su tarjeta microSD muy fácilmente, en e
 Inicie Etcher y seleccione el archivo de imagen y su tarjeta SD.
 
 <p align="center">
-    <img width="300" src="https://maker.pro/storage/EnUlh4Q/EnUlh4QRXft3azUBC14oszxlvGyor44jCk9qdIHE.jpeg" alt="Raspberry Flasheo">
+    <img width="400" src="https://maker.pro/storage/EnUlh4Q/EnUlh4QRXft3azUBC14oszxlvGyor44jCk9qdIHE.jpeg" alt="Raspberry Flasheo">
 </p>
 
 El proceso tomará unos minutos, así que tenga paciencia. Cuando Etcher haya terminado, puede quitar su tarjeta de la computadora.
