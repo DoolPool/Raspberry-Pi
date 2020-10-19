@@ -13,11 +13,39 @@
 
 Raspbian es un sistema operativo como Ubuntu, Windows o Mac OS. La única diferencia es que es solo para Raspberry Pi y está basado en Linux. Debajo de Raspbian, hay un núcleo de Debian (un sistema operativo) que también es el núcleo de Ubuntu y muchos otros sistemas operativos.
 
-### Requisitos
+### Requisitos para instalar
+
+1. Una Raspberry Pi 2 o 3
+
+2. Un adaptador de 5 voltios y 2 amperios
+
+3. Convertidor de HDMI a VGA (si utiliza una pantalla LCD sin HDMI)
+
+4. Un teclado y un mouse
+
+5. Una pantalla LCD
+
+6. Una funda de tarjeta SD (para conectar Raspbian a la tarjeta SD)
+
+7. Un dongle Wi-Fi (si usa Raspberry Pi 2)
+
+8. Un cable HDMI
+
+9. Una tarjeta Micro USB de clase 10 (no menos de 16 GB)
 
 ### 1. Descarga la imagen de Raspbian en la tarjeta SD
 
 ### 2. Flasheo de la imagen de Raspbian en la tarjeta microSD
+
+Puede flashear la imagen de Raspbian en su tarjeta microSD muy fácilmente, en el sistema operativo Windows, Linux y macOS usando Etcher. Etcher es un software realmente fácil de usar para flashear tarjetas microSD para dispositivos Raspberry Pi. Puede descargar Etcher desde el sitio web oficial de <a href="https://www.balena.io/etcher/">Etcher</a>.
+
+Inicie Etcher y seleccione el archivo de imagen y su tarjeta SD.
+
+<p align="center">
+    <img width="300" src="https://maker.pro/storage/EnUlh4Q/EnUlh4QRXft3azUBC14oszxlvGyor44jCk9qdIHE.jpeg" alt="Raspberry Flasheo">
+</p>
+
+El proceso tomará unos minutos, así que tenga paciencia. Cuando Etcher haya terminado, puede quitar su tarjeta de la computadora.
 
 ### 3. Insertar en la Raspberry Pi y Encender
 
