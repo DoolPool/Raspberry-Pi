@@ -15,6 +15,10 @@ La Raspberry Pi es una pequeña computadora de placa única capaz de hacer casi 
     <img width="300" src="https://www.raspberrypi.org/homepage-9df4b/static/hero-shot-33d83b8c5fa0933373dabcc9462b32a3.png" alt="Raspberry">
 </p>
 
+## Información de Pines GPIO
+
+De acuerdo a cada proyecto que realizaremos estaremos usando diferentes pines, cada uno adaptandose a nuestras necesidades para mas información sobre los pines visitar < a href="https://github.com/DoolPool/Raspberry-Pi/wiki/Pines-GPIO">Aqui</a>
+
 ## Kit de Raspberry
 
 En esta ocación estaremos usando el <a href="https://github.com/DoolPool/Raspberry-Pi/wiki#un-kit-de-raspberry-pi-con-lo-esencial">Kit de Rasberry con lo esencial </a>y <a href="https://github.com/DoolPool/Raspberry-Pi/wiki#kits-de-inicio-para-experimentos-electr%C3%B3nicos">Kit de Experiemntos electronicos </a>
