@@ -19,7 +19,7 @@ La Raspberry Pi es una pequeña computadora de placa única capaz de hacer casi 
 
 En esta ocación estaremos usando el <a href="https://github.com/DoolPool/Raspberry-Pi/wiki#un-kit-de-raspberry-pi-con-lo-esencial">Kit de Rasberry con lo esencial </a>y <a href="https://github.com/DoolPool/Raspberry-Pi/wiki#kits-de-inicio-para-experimentos-electr%C3%B3nicos">Kit de Experiemntos electronicos </a>
 
-Para mas información <a href="https://github.com/DoolPool/Raspberry-Pi/wiki"Aqui</a>
+Para mas información <a href="https://github.com/DoolPool/Raspberry-Pi/wiki">Aqui</a>
 
 ## Instalar Sistemas Operativos en Raspberry Pi
 
