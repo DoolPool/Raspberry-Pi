@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<title>GPIO Control</title>
+	<body>
+    		<h2>Control GPIO 4</h2>
+    		<button type="button" id="state" onclick="LEDOn()" style="background-color:green;">ON</button>
+    		<button type="button" id="state" onclick="LEDOff()" style="background-color:red;">OFF</button>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    		<script>
+        		var socket = io.connect(); //cargar socket.io-client y conectarse al host
+        		function LEDOn() { 
+				socket.emit("state", 1); //enviar el estado del botón al servidor
+			}
+
+       			function LEDOff() {
+            			socket.emit("state", 0); //enviar el estado del botón al servidor
+        		}
+    		</script>
+
+	</body>
+</html>
