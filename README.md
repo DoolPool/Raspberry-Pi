@@ -21,7 +21,7 @@ De acuerdo a cada proyecto que realizaremos estaremos usando diferentes pines, c
 
 ## Kit de Raspberry
 
-En esta ocación estaremos usando el <a href="https://github.com/DoolPool/Raspberry-Pi/wiki#un-kit-de-raspberry-pi-con-lo-esencial">Kit de Rasberry con lo esencial </a>y <a href="https://github.com/DoolPool/Raspberry-Pi/wiki#kits-de-inicio-para-experimentos-electr%C3%B3nicos">Kit de Experiemntos electronicos </a>
+En esta ocación estaremos usando el <a href="https://github.com/DoolPool/Raspberry-Pi/wiki/Kits-Raspberry-Pi#un-kit-de-raspberry-pi-con-lo-esencial">Kit de Rasberry con lo esencial </a>y <a href="https://github.com/DoolPool/Raspberry-Pi/wiki/Kits-Raspberry-Pi#kits-de-inicio-para-experimentos-electr%C3%B3nicos">Kit de Experiemntos electronicos </a>
 
 Para mas información <a href="https://github.com/DoolPool/Raspberry-Pi/wiki">Aqui</a>
 
