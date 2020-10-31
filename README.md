@@ -17,7 +17,7 @@ La Raspberry Pi es una pequeña computadora de placa única capaz de hacer casi 
 
 ## Información de Pines GPIO
 
-De acuerdo a cada proyecto que realizaremos estaremos usando diferentes pines, cada uno adaptandose a nuestras necesidades para mas información sobre los pines visitar < a href="https://github.com/DoolPool/Raspberry-Pi/wiki/Pines-GPIO">Aqui</a>
+De acuerdo a cada proyecto que realizaremos estaremos usando diferentes pines, cada uno adaptandose a nuestras necesidades para mas información sobre los pines visitar <a href="https://github.com/DoolPool/Raspberry-Pi/wiki/Pines-GPIO">Aqui</a>
 
 ## Kit de Raspberry
 
